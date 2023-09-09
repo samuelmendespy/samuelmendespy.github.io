@@ -1,0 +1,17 @@
+<header class="header-wrapper" *ngIf="!isCompact()">
+  <div class="header">
+    <app-checkbox-hamburguer-menu></app-checkbox-hamburguer-menu>
+  </div>
+  <h1>Samuel Mendes</h1>
+  <h2>Developer</h2>
+  <div class="social-media">
+    <a href="https://github.com/samuelmendespy">Github</a>
+    <a href="https://www.linkedin.com/in/samuel-mendes-datascience/">Linkedin</a>
+  </div>
+</header>
+<header class="header-compact" *ngIf="isCompact()">
+  <div class="header">
+    <app-checkbox-hamburguer-menu></app-checkbox-hamburguer-menu>
+  </div>
+  <h1>{{ getContentBasedOnRoute() }}</h1>
+</header>

@@ -1,0 +1,24 @@
+<div class="checkbox-container">
+  <div class="checkbox-wrapper">
+      <input type="checkbox" id="toggle" #toggleCheckbox>
+      <label class="checkbox" for="toggle">
+          <div class="trace"></div>
+          <div class="trace"></div>
+          <div class="trace"></div>
+      </label>
+      <div class="menu-decorator"></div>
+      <nav class="menu-items">
+          <ul>
+              <li>
+                  <a routerLink="/" (click)="closeMenu(toggleCheckbox)">Página Inicial</a>
+              </li>
+              <li>
+                  <a routerLink="/about" (click)="closeMenu(toggleCheckbox)">Sobre mim</a>
+              </li>
+              <li>
+                  <a routerLink="/projects" (click)="closeMenu(toggleCheckbox)">Projetos</a>
+              </li>
+          </ul>
+      </nav>
+  </div>
+</div>
