@@ -1,0 +1,94 @@
+export const PERSON = {
+  name: {
+    first: "Nome",
+    middle: "nome do meio",
+    last: "Sobrenome"
+  },
+  about: "Apresentação pessoal",
+  position: "Cargo",
+  
+  birth: {
+    year: 1500,
+    location: "Cidade natal"
+  },
+  
+  experience: [
+    {
+      company: "Nome da empresa",
+      position: "Cargo",
+      timeperiod: "desde Janeiro de 1500",
+      description: "Funções desempenhadas e experiências.",
+      website: "http://127.0.0.1"
+    },
+  ],
+  
+  education: [
+    {
+      degree: "Diploma de Exemplo",
+      timeperiod: "conclusão em Novembro de 1500",
+      description: "Descrição de experiências e conhecimentos importantes.",
+      website: "http://127.0.0.1"
+    }
+  ],
+  
+  skills: [
+    { name: "Java", level: 100 },
+    { name: "Node.js", level: 100 },
+    { name: "Angular", level: 100 },
+    { name: "React.js", level: 100 },
+    { name: "Laravel", level: 100 },
+    { name: "Vue.js", level: 100 },
+    { name: "PHP", level: 100 },
+    { name: "Docker", level: 100 },
+  ],
+  
+  knowledge: "Habiliades adicionais",
+  
+  projects: [
+    {
+      name: "Nome do Projeto",
+      platform: "Tecnologia principal",
+      timeperiod: "Janeiro de 1500",
+      description: "Descrição do projeto.",
+      url: "http://127.0.0.1"
+    },
+  ],
+  
+  hobbies: [
+    {
+      name: "Atividade",
+      iconClass: "fa fa-signal",
+      url: "http://127.0.0.1"
+    },
+    
+    {
+      name: "Atividade",
+      iconClass: "fa fa-building",
+      url: "http://127.0.0.1"
+    },
+    {
+      name: "Atividade",
+      iconClass: "fa fa-gamepad",
+      url: "http://127.0.0.1"
+    }
+  ],
+  
+  contributions: [
+    {
+      name: "Contribution Title",
+      description: "Contribution description",
+      url: "http://127.0.0.1"
+    },
+  ],
+  
+  contact: {
+    email: "exemplo@exemplo.com",
+    phone: "+55 00 0000-0000",
+    street: "_",
+    city: "Cidade",
+    website: "http://127.0.0.1",
+    github: "http://127.0.0.1"
+  },
+  
+  lang: "en"
+}
