@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Gerenciador de Pessoas",
+    "description": "Projeto de demonstração de uma solução de gerenciamento de pessoas.",
+    "technologies": [
+      "Spring Boot (JDK 21)",
+      "React",
+      "JavaScript",
+      "PostgreSQL"
+    ],
+    "screenshot": "https://placehold.co/360x820/1f2937/d1d5db?text=Gerenciador+de+Pessoas"
+  },
+  {
+    "name": "Catálogo de Produtos",
+    "description": "Um projeto com propósitos didáticos e educacionais apenas para demonstrar a extração de dados de uma planilha de produtos e a exposição via API.",
+    "technologies": ["Node.js", "Python", "MongoDB"],
+    "screenshot": "https://placehold.co/360x820/1f2937/d1d5db?text=Catalogo+de+Produtos"
+  },
+  {
+    "name": "Lojinha",
+    "description": "Projeto acadêmico desenvolvido na disciplina de Práticas de Programação com HTML, CSS e JavaScript que visava apenas um carrinho de compras com atualização de preços para produtos já definidos, mas adicionei um recurso de catálogo fornecido com um mock de API em um arquivo json, listagem de produtos, um recurso para adicionar ou remover produtos do carrinho de compras e um seletor de produtos para variante de cor.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "screenshot": "https://placehold.co/360x820/1f2937/d1d5db?text=Lojinha"
+  },
+  {
+    "name": "ReplyVP",
+    "description": "Uma plataforma de atendimento ao cliente de código aberto projetada com segurança e performance.",
+    "technologies": ["MySQL", "Vue.js", "PHP"],
+    "screenshot": "https://placehold.co/360x820/1f2937/d1d5db?text=ReplyVP"
+  }
+]
