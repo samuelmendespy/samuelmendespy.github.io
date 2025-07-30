@@ -10,7 +10,6 @@ export default defineConfig({
 build: {
     // Define o diretório de saída da build.
     outDir: 'docs',
-    base: './',
   },
     
 })
